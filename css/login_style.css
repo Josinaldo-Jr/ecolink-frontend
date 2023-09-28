@@ -16,8 +16,13 @@ form {
     border-radius: 3px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     max-width: 400px;
-    width: 100%;
+    width: 800%;
+}
 
+.titulo-form {
+    font-size: 29px; /* Tamanho da fonte */
+    color: #f2f2f2; /* Cor do texto */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
 }
 
     /* Campos de texto  */
@@ -28,10 +33,10 @@ label {
 
     /* Botão submit  */
 input {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     margin-bottom: 15px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
 }
