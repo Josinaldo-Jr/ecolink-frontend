@@ -1,97 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ecolink-Início</title>
-        <link rel="shortcut icon" href="./img/LogoIcone.png" type="image/x-icon">
-        <link rel="stylesheet" href="./style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    </head>
-    
-    <body>
-        <header class="header-top">
-            <span class="material-symbols-outlined" id="menu-mobile" onclick="activeMenu()">menu</span>
-            <section class="section-header">
-                <a href="./index.html"> <img class="logo-header" src="./img/Logo2.png" alt="Logo Ecolink"></a>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecolink - Início</title>
+    <link rel="shortcut icon" href="./imagens/IconeEco.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <header class="header-top">
+        <span class="material-symbols-outlined" id="menu-mobile" onclick="activeMenu()">menu</span>
+        <section class="section-header">
+            <a href="./index.html"> <img class="logo-header" src="./imagens/LogoEco2.svg" alt="Logo Ecolink"></a>
+        </section>
+
+        <nav class="nav-header">
+            <ul class="menu" id="menu">
+                <li><a href="./index.html">EcoPainel</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a class="user" href="./index.html">Login <span class="material-symbols-outlined">
+                            login</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-home">
+        <figure class="figure-main">
+            <img src="./img/Boy.svg" alt="Garoto estudando em cima dos livros.">
+        </figure>
+        <article class="article-main">
+            <header class="header-article">
+                <h1>Ecolink</h1>
+            </header>
+            <section class="section-article">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolorum fugiat, magni tempora
+                    facere provident in adipisci sint esse? Est recusandae beatae minus totam, officiis libero voluptas
+                    saepe quidem corrupti.
+                </p>
             </section>
-    
-            <nav class="nav-header">
-                <ul class="menu" id="menu">
-                    <li><a href="./index.html">Dashboard</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
-                    <li><a class="user" href="./login.html">Login <span class="material-symbols-outlined">
-                                login</span></a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main class="main-home">
-            <figure class="figure-main">
-                <img src="./img/Boy.svg" alt="Garoto estudando em cima dos livros.">
-            </figure>
-            <article class="article-main">
-                <header class="header-article">
-                    <h1>Ecolink</h1>
-                </header>
-                <section class="section-article">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolorum fugiat, magni tempora facere provident in adipisci sint esse? Est recusandae beatae minus totam, officiis libero voluptas saepe quidem corrupti.
-                    </p>
-                </section>
-                <footer class="footer-article">
-                    <a href="./login.html"><button class="button-footer">Login</button> </a>
-                </footer>
-            </article>
-        </main>
-        <footer class="footer-bottom">
-            <article class="social-article">
-                <header class="social-header-article">
-    
-                    <a href="https://www.behance.net/josinaldojr" target="_blank">
-                        <div class="socialA"></div>
-                    </a>
-                    <a href="https://www.linkedin.com/in/josinaldo-euzebio-261697b7" target="_blank">
-                        <div class="socialB"></div>
-                    </a>
-                    <a href="https://whats.link/josinaldosouzajr" target="_blank">
-                        <div class="socialC"></div>
-                    </a>
-    
-                </header>
-    
-                <section class="social-section-article">
-                    <p>
-                        Ecolink, 2023 © Todos os Direitos Reservados
-                    </p>                                  
-                </section>
-            </article>
-        </footer>
-        <script>
-    
-            function ajustarMenu() {
-                if (window.innerWidth > 890) {
-                    menu.style.display = "flex";
-                } else {
-                    menu.style.display = "none";
-                }
+            <footer class="footer-article">
+                <a href="./login.html"><button class="button-footer">Login</button> </a>
+            </footer>
+        </article>
+    </main>
+    <footer class="footer-bottom">
+        <article class="social-article">
+            <header class="social-header-article">
+
+                <a href="https://www.behance.net/josinaldojr" target="_blank">
+                    <div class="socialA"></div>
+                </a>
+                <a href="https://www.linkedin.com/in/josinaldo-euzebio-261697b7" target="_blank">
+                    <div class="socialB"></div>
+                </a>
+                <a href="https://whats.link/josinaldosouzajr" target="_blank">
+                    <div class="socialC"></div>
+                </a>
+
+            </header>
+
+            <section class="social-section-article">
+                <p>
+                    Ecolink, 2023 © Todos os Direitos Reservados
+                </p>
+            </section>
+        </article>
+    </footer>
+    <script>
+
+        function ajustarMenu() {
+            if (window.innerWidth > 890) {
+                menu.style.display = "flex";
+            } else {
+                menu.style.display = "none";
             }
-    
-            function activeMenu() {
-                if (menu.style.display == "flex") {
-                    menu.style.display = "none";
-                }
-                else {
-                    menu.style.display = "flex";
-                }
+        }
+
+        function activeMenu() {
+            if (menu.style.display == "flex") {
+                menu.style.display = "none";
             }
-    
-            window.addEventListener('load', ajustarMenu);
-            window.addEventListener('resize', ajustarMenu);
-        </script>
-    
-    </body>    
+            else {
+                menu.style.display = "flex";
+            }
+        }
+
+        window.addEventListener('load', ajustarMenu);
+        window.addEventListener('resize', ajustarMenu);
+    </script>
+
+</body>
+
 </html>

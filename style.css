@@ -4,8 +4,8 @@
     padding: 0;
     list-style-type: none;
     text-decoration: none;
-    font-family: Helvetica, sans-serif;
-    color: whitesmoke;
+    font-family: 'Exo 2', sans-serif;
+    color: #f2f2f2;
 }
 
 body {
@@ -36,12 +36,12 @@ body {
 }
 
 .header-top>.material-symbols-outlined:hover {
-    color: #29abe2;
+    color: #54af54;
     cursor: pointer;
 }
 
 .logo-header {
-    width: 100%;
+    width: 50%;
 }
 
 .nav-header {
@@ -62,18 +62,18 @@ body {
 }
 
 li>a:hover {
-    color: #29abe2;
+    color: #54af54;
 }
 
 li:hover {
     background: rgb(60, 60, 60);
-    border-left: solid 1px #29abe2;
+    border-left: solid 1px #54af54;
     padding: 0 5px;
 }
 
 .user,
 .user>.material-symbols-outlined {
-    color: #29abe2;
+    color: #54af54;
 }
 
 .user>.material-symbols-outlined {
@@ -122,7 +122,7 @@ li:hover {
 .article-main h1 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 36px;
-    color: #29abe2;
+    color: #54af54;
 }
 
 .article-main p {
@@ -139,7 +139,7 @@ li:hover {
 }
 
 .button-footer:hover {
-    background: #29abe2;
+    background: #54af54;
 }
 
 .footer-bottom {
@@ -212,22 +212,13 @@ li:hover {
 }
 
 .social-section-article p a {
-    color: #29abe2;
+    color: #54af54;
 }
 
 .social-section-article p a:hover {
     color: rgb(40, 40, 40);
 }
 
-/* Login content */
-.main-login> .article-login {
-    background: blue;
-}
-
-
-form {
-    background: red;
-}
 .material-icons {
     color: rgb(40, 40, 40);
 }
@@ -236,7 +227,7 @@ form {
 @media screen and (min-width: 281px) and (max-width: 499px) { 
 
     .logo-header {
-        width: 50%;
+        width: 40%;
     }
 
     .figure-main {
@@ -257,7 +248,7 @@ form {
 @media screen and (min-width: 500px) and (max-width: 890px) {
 
     .logo-header {
-        width: 40%;
+        width: 26%;
     }
 
     .figure-main {
@@ -295,7 +286,7 @@ form {
     }   
 
     .logo-header {
-        width: 30%;
+        width: 20%;
         margin-left: 10%;
     }
 
