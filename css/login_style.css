@@ -1,6 +1,6 @@
-body {
+body { /* Corpo do site em geral */
     font-family: Raleway, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fff2f2ec;
     margin: 0;
     padding: 0;
     display: flex;
@@ -15,7 +15,7 @@ header {
 }
 
 form { /* Estilo do formulário  */
-    background-color: #5596ad;
+    background-color: #5595ad;
     padding: 50px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -65,7 +65,7 @@ input[type="submit"]:hover { /* Botão de submissão  */
     /* Outros estilos personalizados, como margens, podem ser adicionados aqui */
 }
 
-a { 
+a { /* Links "esqueci minha senha" e "cadastre-se" */
     text-decoration: none; /* Remove sublinhado padrão dos links */
     color: #f2f2f2; /* Cor do texto do link */
     display: block;
@@ -76,7 +76,6 @@ a {
     text-align: center;
 }
 
-/* Estilos para hover (quando o mouse passa sobre o link) */
-a:hover {
+a:hover { /* Estilos para hover (quando o mouse passa sobre o link) */
     color: #2e2e2e; /* Cor do texto do link ao passar o mouse */
 }

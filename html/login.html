@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="/css/login_style.css">
+    <link rel="stylesheet" type="text/css" href="/css/login_style.css"> <!-- Acessando o arquivo CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Icones font-awesome -->
 </head>
 <body>
     <form action="" method="post">
         <!-- Botão para fechar o formulário -->
         <button class="fechar-form" type="button" onclick="nova_rota">X</button>
         
-        <h2 class="titulo-form">Ecolink</h2>
+        <h2 class="titulo-form">Ecolink</h2> <!-- A ideia era botar a logo aqui -->
 
-        <label class="texto-label" for="email"><b>Email:</b></label>
+        <i class="fa-regular fa-envelope"></i>
+        <label class="texto-label" for="email">Email:</label>
         <input type="email" id="email" name="email" required>
 
-        <label class="texto-label" for="senha"><b>Senha:</b></label>
+        <label class="texto-label" for="senha">Senha:</label>
         <input type="password" id="senha" name="senha" required>
 
-        <input type="submit" value="Entrar">
+        <input class="botao-entrar" type="submit" value="Entrar">
 
-        <a href="esqueceu_senha.html">Esqueceu a senha?</a>
+        <a href="esqueceu_senha.html">Esqueci minha senha</a>
         <a href="cadastro.html">Cadastre-se</a>
     </form>
 </body>
