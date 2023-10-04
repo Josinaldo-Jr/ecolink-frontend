@@ -144,6 +144,7 @@ li:hover {
 
 .footer-bottom {
     width: 100%;
+    background: rgb(40, 40, 40);
     display: flex;
     padding: 20px;
 }
@@ -172,33 +173,33 @@ li:hover {
 }
 
 .socialA {
-    background-image: url(./imagens/behance.png);
+    background-image: url(./imagens/social-icone-15.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .socialA:hover {
-    background-image: url(./imagens/behanceB.png);
+    background-image: url(./imagens/social-icone-13.svg);
 }
 
 .socialB {
-    background-image: url(./imagens/linkedin.png);
+    background-image: url(./imagens/social-icone-08.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .socialB:hover {
-    background-image: url(./imagens/linkedinB.png);
+    background-image: url(./imagens/social-icone-07.svg);
 }
 
 .socialC {
-    background-image: url(./imagens/whatsapp.png);
+    background-image: url(./imagens/social-icone-03.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .socialC:hover {
-    background-image: url(./imagens/whatsappB.png);
+    background-image: url(./imagens/social-icone-02.svg);
 }
 
 .social-section-article {
@@ -208,7 +209,7 @@ li:hover {
 }
 
 .social-section-article p {
-    color: rgb(40, 40, 40);
+    color: whitesmoke;
 }
 
 .social-section-article p a {
