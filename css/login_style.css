@@ -56,12 +56,12 @@ input { /* Campos de texto do formulário  */
     padding: 10px; /* Espaçamento após  */
     margin-bottom: 15px;
     box-sizing: border-box;
-    border: 2px solid #5596ad;
+    border: 2px solid #54af54d8;
     border-radius: 13px; /* arredondamento da borda */
 }
 
 .botao-entrar { /* Submit "entrar"  */
-    background-color: #5596ad;
+    background-color: #54af54d8;
     border: none;
     color: #f2f2f2; /* Cor do texto */
     border: 0; /* Remove a borda */
@@ -69,11 +69,11 @@ input { /* Campos de texto do formulário  */
     border-radius: 13px; /* Borda arredondada */
     cursor: pointer; /* Cursor de mão ao passar o mouse */
     font-size: 15px; /* Tamanho da fonte */
-    transition: background-color 1.5s ease;
+    transition: background-color 1.2s ease;
 }
     
 input[type="submit"]:hover { /* Botão de submissão  */
-    background-color: #54af54d8; /* Cor de fundo */
+    background-color: #b071c0e0; /* Cor de fundo */
 }
 
 a { /* Links "esqueci minha senha" e "cadastre-se" */

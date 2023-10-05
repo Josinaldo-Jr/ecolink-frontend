@@ -1,0 +1,44 @@
+body { /* Corpo do site em geral */
+    font-family: Raleway, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.form-centralizado {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo {
+    background-color: #61c461;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.conteudo input {
+    display: inline-block;
+    align-items: center;
+    padding: 3px 100px;
+    background-color: transparent;
+    border: ;
+    font-size: 20px;
+    color: #424242;
+}
+
+.conteudo i {
+    color: #424242;
+    margin-right: 6px; /* Queria adicionar um gap, mas não consegui e botei o margin right */
+}
+
+.botao-enviar {
+    width: 1%; /* Defina um valor percentual desejado para a largura do botão */ /* Inclui a largura da borda e o preenchimento no tamanho total */
+    box-sizing: border-box;/* Outros estilos opcionais para o botão, como cor de fundo, cor do texto, etc. */
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 70%; /* Preenche 100% da largura disponível */
+    box-sizing: border-box; /* Inclui a largura da borda e o preenchimento no tamanho total */
+    margin-bottom: 10px; /* Adiciona um espaçamento abaixo do campo de e-mail */
+}
