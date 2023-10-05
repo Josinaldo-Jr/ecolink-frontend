@@ -173,33 +173,33 @@ li:hover {
 }
 
 .socialA {
-    background-image: url(./imagens/social-icone-15.svg);
+    background-image: url(./imagens/insta-verde.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .socialA:hover {
-    background-image: url(./imagens/social-icone-13.svg);
+    background-image: url(./imagens/insta-lilas.svg);
 }
 
 .socialB {
-    background-image: url(./imagens/social-icone-08.svg);
+    background-image: url(./imagens/linked-verd.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .socialB:hover {
-    background-image: url(./imagens/social-icone-07.svg);
+    background-image: url(./imagens/linked-lilas.svg);
 }
 
 .socialC {
-    background-image: url(./imagens/social-icone-03.svg);
+    background-image: url(./imagens/whats-verde.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .socialC:hover {
-    background-image: url(./imagens/social-icone-02.svg);
+    background-image: url(./imagens/whats-lilas.svg);
 }
 
 .social-section-article {
