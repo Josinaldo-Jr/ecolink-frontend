@@ -57,10 +57,6 @@ body {
     gap: 5px;
 }
 
-.menu>li>a {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-}
-
 li>a:hover {
     color: #54af54;
 }
@@ -81,27 +77,29 @@ li:hover {
 }
 
 .user:hover {
-    color: whitesmoke;
+    color: #f2f2f2;
 
     .material-symbols-outlined {
-        color: whitesmoke;
+        color: #f2f2f2;
     }
 }
 
-.main-home, .main-login {
-    color: whitesmoke;
+.main-home {
+    color: #f2f2f2;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0 10px;
+    gap: 15px;
 }
 
-.figure-main {
-    width: 80%;
+.banner-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.article-main, .article-login {
+.article-main,
+.parceiros {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -111,26 +109,26 @@ li:hover {
     padding: 10px;
 }
 
-.article-login h1 {
-    font-size: 36px;
-    color: whitesmoke;
-    background: rgb(60, 60, 60);
-    padding: 15px;
-    border-radius: 100%;
+.parceiro-A,
+.parceiro-B,
+.parceiro-C {
+    background-color: #54af5417;
+    width: 80%;
+    height: 150px;
 }
 
 .article-main h1 {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 36px;
     color: #54af54;
 }
 
 .article-main p {
     color: rgb(40, 40, 40);
-    text-align: justify;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;    
 }
 
-.button-footer {
+.button-footer-article {
     background: rgb(40, 40, 40);
     padding: 10px 30px;
     border-radius: 20px;
@@ -138,8 +136,13 @@ li:hover {
     cursor: pointer;
 }
 
-.button-footer:hover {
+.button-footer-article:hover {
     background: #54af54;
+}
+
+.parceiros>header>h1 {
+    color: #54af54;
+    text-align: center;
 }
 
 .footer-bottom {
@@ -209,29 +212,18 @@ li:hover {
 }
 
 .social-section-article p {
-    color: whitesmoke;
-}
-
-.social-section-article p a {
-    color: #54af54;
-}
-
-.social-section-article p a:hover {
-    color: rgb(40, 40, 40);
-}
-
-.material-icons {
-    color: rgb(40, 40, 40);
+    color: #f2f2f2;
+    font-family: 'Raleway', sans-serif;    
 }
 
 /* Breakpoint Mobile */
-@media screen and (min-width: 281px) and (max-width: 499px) { 
+@media screen and (min-width: 281px) and (max-width: 499px) {
 
     .logo-header {
         width: 40%;
     }
 
-    .figure-main {
+    .banner-main {
         width: 50%;
     }
 
@@ -252,7 +244,7 @@ li:hover {
         width: 26%;
     }
 
-    .figure-main {
+    .banner-main {
         width: 40%;
     }
 
@@ -284,7 +276,7 @@ li:hover {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-    }   
+    }
 
     .logo-header {
         width: 20%;
@@ -314,12 +306,12 @@ li:hover {
         padding: 0;
     }
 
-    .main-home, .main-login {
+    .main-home {
         flex-direction: row;
         justify-content: center;
     }
 
-    .figure-main {
+    .banner-main {
         width: 30%;
     }
 
