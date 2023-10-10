@@ -9,13 +9,26 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap"> <!-- Adicionando a fonte Exo do Google Fonts -->
 </head>
 <body>
+    <!--
+        Notas:
+            Foi sugerido a inserção da logo ao lado da parte textual para não ficar muito vazio a página
+            Foi sugerido a adaptação e adequação do form para o estilo do google (ver estilo na web)
+            Foi sugerida alteração nas cores da barra de envio do email
+            Acataram a sugestão de adicionar vetores ou imagens nos espaços vazios da página
+            Foi sugerida alteração do placeholder (nome fictício foi colocado por entretenimento)
+            A responsividade do site tá uma merda, não sei como corrigir ainda
+    -->
+    <h1>Recuperação de senha</h1>
+    <div>
+        <p>Esqueceu sua senha?<br> Não se preocupe, informe seu email no campo abaixo<br> e deixe o resto por nossa conta.</p>
+    </div>
     <div class="form-centralizado">
         <form>
             <div class="conteudo">
                 <i class="fa-solid fa-envelope fa-2xl"></i>
                 <input type="email" id="email" name="email" placeholder="paidoverde@exemplo.com" required>
-
-                <input class="botao-enviar" type="submit" value="enviar"><br>
+                
+                <button type="submit" id="enviar" class="botao-enviar">Enviar</button>
             </div>
         </form>
     </div>

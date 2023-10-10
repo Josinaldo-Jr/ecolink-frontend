@@ -1,6 +1,24 @@
 body { /* Corpo do site em geral */
     font-family: Raleway, sans-serif;
     background-color: #f2f2f2;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Exo', sans-serif; /* Aplica a fonte Exo */
+    font-weight: bold; /* Define a letra em negrito */
+    font-size: 35px;
+    position: absolute; /* Posiciona o h1 em relação ao corpo */
+    top: 20%; /* Ajusta a distância do topo conforme necessário */
+    left: 50%;
+}
+
+p {
+    font-family: 'Raleway', sans-serif; /* Aplica a fonte Exo */
+    font-size: 20px;
+    position: absolute; /* Posiciona o p em relação ao corpo */
+    top: 27%; /* Ajusta a distância do topo conforme necessário */
+    left: 50%;
 }
 
 .form-centralizado {
@@ -11,19 +29,20 @@ body { /* Corpo do site em geral */
 }
 
 .conteudo {
-    background-color: #61c461;
-    padding: 10px 10px;
+    background-color: #65afcade;
+    padding: 1px 10px;
     border-radius: 10px;
 }
 
 .conteudo input {
-    display: inline-block;
+    display: inline-flex;
     align-items: center;
-    padding: 3px 100px;
+    padding: 1px 150px;
     background-color: transparent;
-    border: ;
+    border: none; /* none */
     font-size: 20px;
     color: #424242;
+    margin-top: 7px;
 }
 
 .conteudo i {
@@ -32,13 +51,36 @@ body { /* Corpo do site em geral */
 }
 
 .botao-enviar {
-    width: 1%; /* Defina um valor percentual desejado para a largura do botão */ /* Inclui a largura da borda e o preenchimento no tamanho total */
-    box-sizing: border-box;/* Outros estilos opcionais para o botão, como cor de fundo, cor do texto, etc. */
-    margin-bottom: 10px;
+    width: auto;
+    box-sizing: border-box;
+    margin-bottom: 10px;    
+    background-color: #424242; /* Cor de fundo preta */
+    color: #f2f2f2;
+    border: none;
+    padding: 4px ;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 9px 2px; /* Margens superior e inferior */
+    cursor: pointer;
+    border-radius: 5px; /* Borda arredondada */
+}
+
+.botao-enviar:hover {
+    background-color: #9d4fb1; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+.botao-enviar:active {
+    background-color: #e79bfa; /* Cor de fundo ainda mais escura ao clicar */
+}
+
+.botao-enviar.alto {
+    height: 50px; /* Altura maior (ajuste conforme necessário) */
+    line-height: 50px; /* Alinhamento vertical do texto */
 }
 
 #email {
-    width: 70%; /* Preenche 100% da largura disponível */
+    width: auto; /* Preenche 100% da largura disponível */
     box-sizing: border-box; /* Inclui a largura da borda e o preenchimento no tamanho total */
     margin-bottom: 10px; /* Adiciona um espaçamento abaixo do campo de e-mail */
 }
