@@ -23,7 +23,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 3px 3px rgba(40, 40, 40, 0.3);
     padding: 15px;
 }
 
@@ -89,7 +88,7 @@ li:hover {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
 }
 
 .banner-main {
@@ -115,6 +114,7 @@ li:hover {
     background-color: #54af5417;
     width: 80%;
     height: 150px;
+    box-shadow: 3px 3px 6px 1px rgba(40, 40, 40, 0.3);
 }
 
 .article-main h1 {
@@ -125,7 +125,7 @@ li:hover {
 .article-main p {
     color: rgb(40, 40, 40);
     text-align: center;
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
 }
 
 .button-footer-article {
@@ -164,22 +164,24 @@ li:hover {
 .social-section-article {
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    gap: 10px;
+    justify-content: center;
+    padding: 15px;
+    gap: 15px;
 }
 
 .menu-footer {
+    width: 100%;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 20px;
+    text-align: center;
 }
 
 .menu-footer li:hover {
     color: #54af54;
-    border-left: solid #f2f2f2 1px;
-    background: none;
+    border-left: solid #54af54 1px;
     padding: 0;
 }
 
@@ -222,27 +224,37 @@ li:hover {
 
 .social-section-article p {
     color: #f2f2f2;
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Breakpoint Mobile */
-@media screen and (min-width: 281px) and (max-width: 499px) {
+@media screen and (min-width: 281px) and (max-width: 399px) {
 
     .logo-header {
         width: 40%;
     }
 
     .banner-main {
-        width: 50%;
+        width: 100%;
     }
 
     .section-article {
         width: 80%;
     }
 
-    .social-header-article {
-        justify-content: center;
-        gap: 20px;
+    .social-section-article {
+        gap: 25px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+
+    .menu-footer {
+        flex-direction: row;
+    }
+     
+    .social-section-article {
+        gap: 25px;
     }
 }
 
@@ -251,10 +263,6 @@ li:hover {
 
     .logo-header {
         width: 26%;
-    }
-
-    .banner-main {
-        width: 40%;
     }
 
     .menu {
@@ -268,13 +276,16 @@ li:hover {
         padding: 0;
     }
 
+    .menu-footer {
+        flex-direction: row;
+    }
+
     .section-article {
         width: 80%;
     }
-
-    .social-header-article {
-        justify-content: center;
-        gap: 20px;
+     
+    .social-section-article {
+        gap: 25px;
     }
 }
 
@@ -315,25 +326,19 @@ li:hover {
         padding: 0;
     }
 
-    .main-home {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .banner-main {
-        width: 30%;
-    }
-
     .article-main {
-        width: 50%;
+        width: 100%;
     }
 
     .section-article {
         width: 60%;
     }
 
-    .social-header-article {
-        justify-content: center;
-        gap: 20px;
+    .menu-footer {
+        flex-direction: row;
+    }
+     
+    .social-section-article {
+        gap: 25px;
     }
 }
