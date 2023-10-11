@@ -165,7 +165,22 @@ li:hover {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    padding: 10px;
     gap: 10px;
+}
+
+.menu-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.menu-footer li:hover {
+    color: #54af54;
+    border-left: solid #f2f2f2 1px;
+    background: none;
+    padding: 0;
 }
 
 .socialA,
@@ -203,12 +218,6 @@ li:hover {
 
 .socialC:hover {
     background-image: url(./imagens/whats-lilas.svg);
-}
-
-.social-section-article {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
 }
 
 .social-section-article p {
