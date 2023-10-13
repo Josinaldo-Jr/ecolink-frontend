@@ -328,7 +328,11 @@ li:hover {
     }
 
     .section-article {
-        width: 60%;
+        width: 30%;
+    }
+
+    .parceiro-A, .parceiro-B, .parceiro-C {
+        width: 50%;
     }
 
     .menu-footer {
