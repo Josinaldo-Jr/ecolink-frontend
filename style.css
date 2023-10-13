@@ -93,6 +93,7 @@ li:hover {
 
 .banner-main {
     width: 100%;
+    background: black;
     display: flex;
     flex-direction: column;
 }
@@ -338,6 +339,10 @@ li:hover {
         flex-direction: row;
     }
      
+    .social-header-article {
+        width: 60%;
+    }
+
     .social-section-article {
         gap: 25px;
     }
