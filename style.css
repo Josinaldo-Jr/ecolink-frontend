@@ -93,7 +93,7 @@ li:hover {
 
 .banner-main {
     width: 100%;
-    background: black;
+    background: rgb(40, 40, 40);
     display: flex;
     flex-direction: column;
 }
@@ -233,10 +233,6 @@ li:hover {
 
     .logo-header {
         width: 40%;
-    }
-
-    .banner-main {
-        width: 100%;
     }
 
     .section-article {
