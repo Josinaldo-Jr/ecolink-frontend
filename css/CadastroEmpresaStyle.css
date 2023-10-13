@@ -1,0 +1,18 @@
+body {
+    font-family: Raleway, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #f2f2f2;
+}
+
+.form-empresa {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%; /* Ajuste a largura conforme necessário */
+    padding: 70px;
+}

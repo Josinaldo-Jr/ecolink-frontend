@@ -1,86 +1,75 @@
-body { /* Corpo do site em geral */
+body {
     font-family: Raleway, sans-serif;
     background-color: #f2f2f2;
-    position: relative;
 }
 
-h1 {
-    font-family: 'Exo', sans-serif; /* Aplica a fonte Exo */
-    font-weight: bold; /* Define a letra em negrito */
-    font-size: 35px;
-    position: absolute; /* Posiciona o h1 em relação ao corpo */
-    top: 20%; /* Ajusta a distância do topo conforme necessário */
-    left: 50%;
-}
-
-p {
-    font-family: 'Raleway', sans-serif; /* Aplica a fonte Exo */
-    font-size: 20px;
-    position: absolute; /* Posiciona o p em relação ao corpo */
-    top: 27%; /* Ajusta a distância do topo conforme necessário */
-    left: 50%;
-}
-
-.form-centralizado {
-    height: 100vh;
-    display: flex;
+.formulario h2 {
+    font-family: Exo, sans-serif;
+    display: block;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
 
-.conteudo {
-    background-color: #65afcade;
-    padding: 1px 10px;
-    border-radius: 10px;
+.formulario p {
+    margin-bottom: 25px;
+}
+
+.formulario {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.formulario form {
+    color: #303030;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 50px;
+    box-shadow:  0 0 2px #585858;
+    width: 20% ;
+    text-align: center;
 }
 
 .conteudo input {
-    display: inline-flex;
-    align-items: center;
-    padding: 1px 150px;
-    background-color: transparent;
-    border: none; /* none */
-    font-size: 20px;
-    color: #424242;
-    margin-top: 7px;
-}
-
-.conteudo i {
-    color: #424242;
-    margin-right: 6px; /* Queria adicionar um gap, mas não consegui e botei o margin right */
-}
-
-.botao-enviar {
-    width: auto;
+    display: block;
+    width: 100%;
     box-sizing: border-box;
-    margin-bottom: 10px;    
-    background-color: #424242; /* Cor de fundo preta */
-    color: #f2f2f2;
-    border: none;
-    padding: 4px ;
-    text-align: center;
-    display: inline-block;
+    margin-bottom: 15px;
+    color: #333333;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 2px solid #5596ad;
     font-size: 16px;
-    margin: 9px 2px; /* Margens superior e inferior */
+}
+
+.conteudo input[type="submit"] {
+    background-color: #5596ad;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 10px;
     cursor: pointer;
-    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 1.2s ease;
 }
 
-.botao-enviar:hover {
-    background-color: #9d4fb1; /* Cor de fundo mais escura ao passar o mouse */
+.conteudo input[type="submit"]:hover {
+    background-color: #45a049;
 }
 
-.botao-enviar:active {
-    background-color: #e79bfa; /* Cor de fundo ainda mais escura ao clicar */
+.conteudo a {
+    text-decoration: none; /* Remove sublinhado padrão dos links */
+    color: #2b2b2b; /* Cor do texto do link */
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 15px; /* Tamanho da fonte */
+    text-align: center;
 }
 
-.botao-enviar.alto {
-    height: 50px; /* Altura maior (ajuste conforme necessário) */
-    line-height: 50px; /* Alinhamento vertical do texto */
-}
-
-#email {
-    width: auto; /* Preenche 100% da largura disponível */
-    box-sizing: border-box; /* Inclui a largura da borda e o preenchimento no tamanho total */
-    margin-bottom: 10px; /* Adiciona um espaçamento abaixo do campo de e-mail */
+.conteudo a:hover {
+    color: #d15d5d; /* Cor do texto do link ao passar o mouse */
 }
