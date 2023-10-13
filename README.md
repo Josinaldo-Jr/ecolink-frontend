@@ -9,4 +9,4 @@ https://www.figma.com/file/5Kcxz9NXI5dVvlf7lbrvQY/Wireframe-Ecolink?type=design&
 ## Vetores e Icones: 
 https://drive.google.com/drive/folders/1XsCucAlWQW1GBD2pk-6AhQoMXyvsoqAg
 ## Imagens:
-https://drive.google.com/drive/folders/1XsCucAlWQW1GBD2pk-6AhQoMXyvsoqAg](https://docs.google.com/document/d/1STmFrepeHzn8-VbrpoRo2DUuQmeqhNkiwO6kstcjLqI/edit)https://docs.google.com/document/d/1STmFrepeHzn8-VbrpoRo2DUuQmeqhNkiwO6kstcjLqI/edit
+https://docs.google.com/document/d/1STmFrepeHzn8-VbrpoRo2DUuQmeqhNkiwO6kstcjLqI/edit
