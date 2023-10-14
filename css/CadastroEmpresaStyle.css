@@ -92,14 +92,14 @@
 .contact-form2 input[type="tel"]:focus,
 .contact-form2 input[type="password"]:focus {
     background: #fff;
-    border: 1px solid hsl(271, 81%, 55%);
+    border: 1px solid #5596ad;
 }
 
 .contact-form2 button {
     font-size: 18px;
     color: #fff;
     width: 100%;
-    background: hsl(271, 70%, 60%);
+    background: #5596ad;
     font-weight: 600;
     transition: 0.3s ease;
     padding: 14px 15px;
