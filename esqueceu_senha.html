@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecolink - Login</title>
+    <title>Ecolink - Esqueci a senha</title>
     <link rel="shortcut icon" href="./imagens/IconeEco.svg" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,22 +36,18 @@
 
 
 
-        <form action="" method="post">
-            <!-- Botão para fechar o formulário -->
+        <form class="form-esq-senha" method="post">
 
-            <h2 class="titulo-form">Login</h2> <!-- A ideia era botar a logo aqui -->
+            <h2 class="titulo-form">Esqueceu sua senha?</h2> <!-- A ideia era botar a logo aqui -->
+
+            <p>Não se preocupe, informe seu email no campo abaixo e deixe o resto conosco.</p>
 
             <label class="texto-label" for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="Digite seu email" required>
 
-            <label class="texto-label" for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+            <input class="botao-entrar" type="submit" value="Recuperar senha">
 
-            <input class="botao-entrar" type="submit" value="Entrar">
-
-            <p><a href="esqueceu_senha.html">Esqueci minha senha</a>
-            </p>
-            <p><a href="cadastro.html">Cadastre-se</a></p>
+            <p><a href="cadastro.html">Problemas com o email?</a></p>
         </form>
 
 

@@ -83,7 +83,7 @@ li:hover {
     }
 }
 
-.main-home {
+.main-base {
     color: #f2f2f2;
     width: 100%;
     display: flex;
@@ -348,3 +348,76 @@ li:hover {
         gap: 25px;
     }
 }
+
+/* ------------Início Login/Esqueceu senha----------- */
+form {
+    padding: 25px;
+    max-width: 500px;
+}
+
+.titulo-form { /* Título do formulário  */
+    color: #54af54d8; /* Cor do texto */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    text-align: center;
+}
+    
+label { /* Texto dos campos de texto  */
+    display: block;
+    margin-bottom: 11px; /* espaçamento após a caixa de texto */
+}
+
+.form-esq-senha {
+    width: 100%;
+}
+
+.form-esq-senha label{
+    margin-top: 20px;
+}
+
+.texto-label { /* Edição dos textos dos campos de texto  */
+    color: rgb(40, 40, 40); /* Cor do texto */
+    font-size: 16px; /* tamanho do texto */
+}
+   
+input { /* Campos de texto do formulário  */
+    width: 100%; /* Tamanho da caixa de texto */
+    padding: 10px; /* Espaçamento após  */
+    margin-bottom: 15px;
+    border: 2px solid #54af54d8;
+    border-radius: 13px; /* arredondamento da borda */
+    color: rgb(40, 40, 40); /* Cor do texto */
+}
+
+.botao-entrar { /* Submit "entrar"  */
+    background-color: #54af54d8;
+    border: none;
+    color: #f2f2f2; /* Cor do texto */
+    border: 0; /* Remove a borda */
+    padding: 11px 25px; /* Preenchimento interno */
+    border-radius: 13px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    font-size: 15px; /* Tamanho da fonte */
+    text-wrap:wrap;
+    transition: background-color 0.2s ease;
+}
+    
+input[type="submit"]:hover { /* Botão de submissão  */
+    background-color: #e79bfa; /* Cor de fundo */
+}
+
+form p  { /* Links "esqueci minha senha" e "cadastre-se" */
+    display: block;
+    margin-top: 9px;
+    font-size: 15px; /* Tamanho da fonte */
+    text-align: center;
+    color: rgb(40, 40, 40);
+}
+
+form a {
+    color: rgb(40, 40, 40); /* Cor do texto do link */
+}
+
+a:hover { /* Estilos para hover (quando o mouse passa sobre o link) */
+    color: #e79bfa; /* Cor do texto do link ao passar o mouse */
+}
+/* ------------Fim Login/Esqueceu senha----------- */
