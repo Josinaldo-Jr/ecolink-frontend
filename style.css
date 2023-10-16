@@ -443,3 +443,41 @@ textarea {
     min-height: 100px;
 }
 /* ------------Fim Contato----------- */
+
+
+
+/* ------------Início Cadastro Funcionário----------- */
+#cpf {
+    max-width: 150px;
+}
+.cadastro-funcionario {
+    width: 100%;
+    background:#54af542a;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cadastro-funcionario form {
+    width: 100%;
+    max-width: 700px;
+    background:#f2f2f2;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px rgba(40, 40, 40, 0.3);
+}
+
+.cadastro-funcionario select, .cadastro-funcionario select option { /* Campos de texto do formulário  */
+    padding: 10px; /* Espaçamento após  */
+    margin-bottom: 15px;
+    border: 2px solid #54af54d8;
+    border-radius: 13px; /* arredondamento da borda */
+    color: rgb(40, 40, 40); /* Cor do texto */
+}
+
+.input-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* ------------Fim Cadastro Funcionário----------- */
