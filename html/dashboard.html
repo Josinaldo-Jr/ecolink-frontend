@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" type="text/css" href="/css/DashboardStyle.css"> <!-- Acessando o arquivo CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap"> <!-- Adicionando a fonte Exo do Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="user-info">
+            <img class="avatar" src="/html/user-profile.jpg" alt="Avatar">
+            <h2>JerryTravesso</h2>
+        </div>
+        <div class="dashboard">
+            <p>Dashboard</p>
+            <ul>
+                <li onclick="updateTitle('Ano de coleta')">Ano de coleta</li>
+                <li onclick="updateTitle('Material de coleta')">
+                    Material de coleta
+                    <ul class="sub-menu">
+                        <li onclick="updateTitle('Papel')">Papel</li>
+                        <li onclick="updateTitle('Plástico')">Plástico</li>
+                        <li onclick="updateTitle('Vidro')">Vidro</li>
+                        <li onclick="updateTitle('Metal')">Metal</li>
+                        <li onclick="updateTitle('Eletrônico')">Eletrônico</li>
+                    </ul>
+                </li>
+                <li onclick="updateTitle('Pontos obtidos')">Pontos obtidos</li>
+                <li onclick="updateTitle('Vendas realizadas')">Vendas realizadas</li>
+                <li onclick="updateTitle('Compras realizadas')">Compras realizadas</li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <!-- Conteúdo principal da página -->
+        <h1>Bem-vindo ao Dashboard</h1>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h2>Conteúdo 1</h2>
+                <p>Descrição do conteúdo 1...</p>
+            </div>
+            <div class="grid-item">
+                <h2>Conteúdo 2</h2>
+                <p>Descrição do conteúdo 2...</p>
+            </div>
+            <div class="grid-item">
+                <h2>Conteúdo 3</h2>
+                <p>Descrição do conteúdo 3...</p>
+            </div>
+            <div class="grid-item">
+                <h2>Conteúdo 4</h2>
+                <p>Descrição do conteúdo 4...</p>
+            </div>
+            <div class="grid-item">
+                <h2>Conteúdo 5</h2>
+                <p>Descrição do conteúdo 5...</p>
+            </div>
+            <div class="grid-item">
+                <h2>Conteúdo 6</h2>
+                <p>Descrição do conteúdo 6...</p>
+            </div>
+            <div class="grid-item">
+                <h2>Conteúdo 7</h2>
+                <p>Descrição do conteúdo 7...</p>
+            </div>
+            <div class="grid-item">
+                <h2>Conteúdo 8</h2>
+                <p>Descrição do conteúdo 8...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function updateTitle(title) {
+            document.querySelector('.content h1').innerText = `Detalhes: ${title}`;
+        }
+    </script>
+</body>
+</html>

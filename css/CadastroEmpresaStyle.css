@@ -1,18 +1,126 @@
-body {
-    font-family: Raleway, sans-serif;
-    margin: 0;
+* {
     padding: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    background-color: #f2f2f2;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
 }
 
-.form-empresa {
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 50%; /* Ajuste a largura conforme necessário */
-    padding: 70px;
+.contact-form2 {
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+    background: #dae6dc;
+    padding: 30px;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+}
+
+.container12 {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form2 h1 {
+    font-family: Exo, sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.contact-form2 h2 {
+    line-height: 20px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+
+.contact-form2 .input-group2 {
+    display: flex;
+    margin: 20px 0;
+}
+
+.half-width2,
+.third-width2,
+.two-thirds-width2 {
+    flex-basis: calc(33.33% - 6px);
+    padding: 5px;
+}
+
+.half-width2 {
+    flex-basis: 50%;
+}
+
+.third-width2 {
+    flex-basis: 33.33%;
+}
+
+.two-thirds-width2 {
+    flex-basis: 66.66%;
+}
+
+.contact-form2 select,
+.contact-form2 input[type="text"],
+.contact-form2 input[type="email"],
+.contact-form2 input[type="tel"],
+.contact-form2 input[type="password"] {
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #999;
+    padding: 14px 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none; /* 2px solid #52ca52ec */
+    background: #fcfcfc;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.contact-form2 select:focus,
+.contact-form2 input[type="text"]:focus,
+.contact-form2 input[type="email"]:focus,
+.contact-form2 input[type="tel"]:focus,
+.contact-form2 input[type="password"]:focus {
+    background: #fff;
+    border: 1px solid #5596ad;
+}
+
+.contact-form2 button {
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+    background: #5596ad;
+    font-weight: 600;
+    transition: 0.3s ease;
+    padding: 14px 15px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: background-color 1.2s ease;
+}
+
+.contact-form2 button:hover {
+    background: #52ca52ec;
+}
+
+@media (max-width: 736px) {
+    .contact-form2 .input-group2 {
+        flex-direction: column;
+    }
+
+    .content {
+        order: 1;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
 }
