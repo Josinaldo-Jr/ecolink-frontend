@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecolink - Início</title>
+    <title>Ecolink - Esqueci a senha</title>
     <link rel="shortcut icon" href="./imagens/IconeEco.svg" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,36 +30,31 @@
                             login</span></a>
                 </li>
             </ul>
-        </nav>        
+        </nav>
     </header>
     <section class="bem-vindo">
         <p>Seja bem vindo, <span>Fulano!</span></p>
     </section>
     <main class="main-base">
-        <figure class="banner-main">
-            <img src="./imagens/EcoLinkBanner.svg" alt="Dois jovens colocando lixo no local correto para reclicar.">
-        </figure>
-        <article class="article-main">
-            <header class="header-article">
-                <img src="./imagens/LogoEco1.svg" alt="" width="100%">
-            </header>
-            <section class="section-article">
-                <p> Bem-vindo ao Ecolink, onde a ação se transforma em reciclagem . Estamos comprometidos em promover um
-                    futuro mais sustentável e saudável para o nosso planeta, e você pode fazer parte disso.
-                </p>
-            </section>
-            <footer class="footer-article">
-                <a href="./login.html"><button class="button-footer-article">Login</button> </a>
-            </footer>
-        </article>
-        <article class="parceiros">
-            <header>
-                <h1>Nossos Parceiros</h1>
-            </header>
-            <section class="parceiro-A"></section>
-            <section class="parceiro-B"></section>
-            <section class="parceiro-C"></section>
-        </article>
+
+
+
+        <form class="form-esq-senha" method="post">
+
+            <h2 class="titulo-form">Esqueceu sua senha?</h2>
+
+            <p>Não se preocupe, informe seu CPF ou CNPJ no campo abaixo e deixe o resto conosco.</p>
+
+            <label class="texto-label" for="cpf_cnpj">CPF/CNPJ:</label>
+            <input type="text" id="cpf_cnpj" name="cpf_cnpj" pattern="[0-9]{14}" maxlength="14" placeholder="Digite o CPF ou CNPJ"
+                required>
+
+            <input class="botao-entrar" type="submit" value="Recuperar senha">
+
+            <p><a href="contato.html">Problemas com o email?</a></p>
+        </form>
+
+
     </main>
     <footer class="footer-bottom">
         <article class="social-article">
@@ -92,7 +87,6 @@
         </article>
     </footer>
     <script>
-
         function ajustarMenu() {
             if (window.innerWidth > 890) {
                 menu.style.display = "flex";
@@ -113,7 +107,6 @@
         window.addEventListener('load', ajustarMenu);
         window.addEventListener('resize', ajustarMenu);
     </script>
-
 </body>
 
 </html>
