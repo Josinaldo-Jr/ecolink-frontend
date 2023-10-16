@@ -30,6 +30,17 @@ body {
     width: 100%;
 }
 
+
+.bem-vindo {
+    background: rgb(40, 40, 40);
+    padding: 10px 20px;
+}
+
+.bem-vindo span {
+    color: #54af54;
+}
+
+
 .material-symbols-outlined {
     margin-left: auto;
 }
@@ -116,7 +127,8 @@ li:hover {
     background-color: #54af5417;
     width: 80%;
     height: 150px;
-    box-shadow: 1px 1px 6px 1px rgba(40, 40, 40, 0.3);}
+    box-shadow: 1px 1px 6px 1px rgba(40, 40, 40, 0.3);
+}
 
 .article-main h1 {
     font-size: 36px;
@@ -197,6 +209,7 @@ li:hover {
     background-image: url(./imagens/insta-verde.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    transition: background-image 0.3s ease;
 }
 
 .socialA:hover {
@@ -207,6 +220,7 @@ li:hover {
     background-image: url(./imagens/linked-verd.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    transition: background-image 0.3s ease;
 }
 
 .socialB:hover {
@@ -217,6 +231,7 @@ li:hover {
     background-image: url(./imagens/whats-verde.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    transition: background-image 0.3s ease;
 }
 
 .socialC:hover {
@@ -249,7 +264,7 @@ li:hover {
     .menu-footer {
         flex-direction: row;
     }
-     
+
     .social-section-article {
         gap: 25px;
     }
@@ -280,7 +295,7 @@ li:hover {
     .section-article {
         width: 80%;
     }
-     
+
     .social-section-article {
         gap: 25px;
     }
@@ -331,14 +346,16 @@ li:hover {
         width: 30%;
     }
 
-    .parceiro-A, .parceiro-B, .parceiro-C {
+    .parceiro-A,
+    .parceiro-B,
+    .parceiro-C {
         width: 50%;
     }
 
     .menu-footer {
         flex-direction: row;
     }
-     
+
     .social-header-article {
         width: 60%;
     }
@@ -354,71 +371,100 @@ form {
     max-width: 500px;
 }
 
-.titulo-form { /* Título do formulário  */
-    color: #54af54d8; /* Cor do texto */
-    margin-bottom: 20px; /* Espaçamento abaixo do título */
+.titulo-form {
+    /* Título do formulário  */
+    color: #54af54d8;
+    /* Cor do texto */
+    margin-bottom: 20px;
+    /* Espaçamento abaixo do título */
     text-align: center;
 }
-    
-label { /* Texto dos campos de texto  */
+
+label {
+    /* Texto dos campos de texto  */
     display: block;
-    margin-bottom: 11px; /* espaçamento após a caixa de texto */
+    margin-bottom: 11px;
+    /* espaçamento após a caixa de texto */
 }
 
 .form-esq-senha {
     width: 100%;
 }
 
-.form-esq-senha label{
+.form-esq-senha label {
     margin-top: 20px;
 }
 
-.texto-label { /* Edição dos textos dos campos de texto  */
-    color: rgb(40, 40, 40); /* Cor do texto */
-    font-size: 16px; /* tamanho do texto */
+.texto-label {
+    /* Edição dos textos dos campos de texto  */
+    color: rgb(40, 40, 40);
+    /* Cor do texto */
+    font-size: 16px;
+    /* tamanho do texto */
 }
-   
-input, textarea { /* Campos de texto do formulário  */
-    width: 100%; /* Tamanho da caixa de texto */
-    padding: 10px; /* Espaçamento após  */
+
+input,
+textarea {
+    /* Campos de texto do formulário  */
+    width: 100%;
+    /* Tamanho da caixa de texto */
+    padding: 10px;
+    /* Espaçamento após  */
     margin-bottom: 15px;
     border: 2px solid #54af54d8;
-    border-radius: 13px; /* arredondamento da borda */
-    color: rgb(40, 40, 40); /* Cor do texto */
+    border-radius: 13px;
+    /* arredondamento da borda */
+    color: rgb(40, 40, 40);
+    /* Cor do texto */
 }
 
-.botao-entrar { /* Submit "entrar"  */
+.botao-entrar {
+    /* Submit "entrar"  */
     background-color: #54af54d8;
     border: none;
-    color: #f2f2f2; /* Cor do texto */
-    border: 0; /* Remove a borda */
-    padding: 11px 25px; /* Preenchimento interno */
-    border-radius: 13px; /* Borda arredondada */
-    cursor: pointer; /* Cursor de mão ao passar o mouse */
-    font-size: 15px; /* Tamanho da fonte */
-    text-wrap:wrap;
+    color: #f2f2f2;
+    /* Cor do texto */
+    border: 0;
+    /* Remove a borda */
+    padding: 11px 25px;
+    /* Preenchimento interno */
+    border-radius: 13px;
+    /* Borda arredondada */
+    cursor: pointer;
+    /* Cursor de mão ao passar o mouse */
+    font-size: 15px;
+    /* Tamanho da fonte */
     transition: background-color 0.3s ease;
 }
-    
-input[type="submit"]:hover { /* Botão de submissão  */
-    background-color: #e79bfa; /* Cor de fundo */
+
+input[type="submit"]:hover {
+    /* Botão de submissão  */
+    background-color: #e79bfa;
+    /* Cor de fundo */
 }
 
-form p  { /* Links "esqueci minha senha" e "cadastre-se" */
+form p {
+    /* Links "esqueci minha senha" e "cadastre-se" */
     display: block;
     margin-top: 9px;
-    font-size: 15px; /* Tamanho da fonte */
+    font-size: 15px;
+    /* Tamanho da fonte */
     text-align: center;
     color: rgb(40, 40, 40);
 }
 
 form a {
-    color: rgb(40, 40, 40); /* Cor do texto do link */
+    color: rgb(40, 40, 40);
+    /* Cor do texto do link */
+    transition: color 0.3s ease;
 }
 
-a:hover { /* Estilos para hover (quando o mouse passa sobre o link) */
-    color: #e79bfa; /* Cor do texto do link ao passar o mouse */
+a:hover {
+    /* Estilos para hover (quando o mouse passa sobre o link) */
+    color: #e79bfa;
+    /* Cor do texto do link ao passar o mouse */
 }
+
 /* ------------Fim Login/Esqueceu senha/Contato----------- */
 
 
@@ -426,7 +472,7 @@ a:hover { /* Estilos para hover (quando o mouse passa sobre o link) */
 /* ------------Início Contato----------- */
 .contato {
     width: 100%;
-    background:#54af542a;
+    background: #54af542a;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -434,25 +480,32 @@ a:hover { /* Estilos para hover (quando o mouse passa sobre o link) */
 
 .contato form {
     width: 700px;
-    background:#f2f2f2;
+    background: #f2f2f2;
     border-radius: 10px;
     box-shadow: 1px 1px 6px 1px rgba(40, 40, 40, 0.3);
 }
+
 textarea {
     resize: none;
     min-height: 100px;
 }
+
 /* ------------Fim Contato----------- */
 
 
 
-/* ------------Início Cadastro Funcionário----------- */
+/* ------------Início Cadastro Funcionário/Empresa----------- */
 #cpf {
     max-width: 150px;
 }
+
+#estado {
+    max-width: 120px;
+}
+
 .cadastro-funcionario {
     width: 100%;
-    background:#54af542a;
+    background: #54af542a;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -461,17 +514,22 @@ textarea {
 .cadastro-funcionario form {
     width: 100%;
     max-width: 700px;
-    background:#f2f2f2;
+    background: #f2f2f2;
     border-radius: 10px;
     box-shadow: 1px 1px 6px 1px rgba(40, 40, 40, 0.3);
 }
 
-.cadastro-funcionario select, .cadastro-funcionario select option { /* Campos de texto do formulário  */
-    padding: 10px; /* Espaçamento após  */
+.cadastro-funcionario select,
+.cadastro-funcionario select option {
+    /* Campos de texto do formulário  */
+    padding: 10px;
+    /* Espaçamento após  */
     margin-bottom: 15px;
     border: 2px solid #54af54d8;
-    border-radius: 13px; /* arredondamento da borda */
-    color: rgb(40, 40, 40); /* Cor do texto */
+    border-radius: 13px;
+    /* arredondamento da borda */
+    color: rgb(40, 40, 40);
+    /* Cor do texto */
 }
 
 .input-group {
@@ -479,5 +537,4 @@ textarea {
     gap: 15px;
     flex-wrap: wrap;
 }
-
-/* ------------Fim Cadastro Funcionário----------- */
+/* ------------Fim Cadastro Funcionário/Empresa----------- */
