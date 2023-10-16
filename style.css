@@ -397,7 +397,7 @@ input, textarea { /* Campos de texto do formulário  */
     cursor: pointer; /* Cursor de mão ao passar o mouse */
     font-size: 15px; /* Tamanho da fonte */
     text-wrap:wrap;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.3s ease;
 }
     
 input[type="submit"]:hover { /* Botão de submissão  */
