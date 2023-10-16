@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700');
+/*Formulário de contato*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.contact-form{
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+    background: #b6e5de;
+    padding: 30px;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+}
+.container{
+    max-width: 700px;
+    margin-top: 0 auto;
+}
+.contact form h1{
+    text-align:center ;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'poppins';
+}
+.contact-form h2{
+
+    line-height: 40px;
+    margin-bottom: 5px;
+    font-size:30px ;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+}
+.contact-form .main{
+    position: relative;
+    display:flex ;
+    margin: 30px 0;
+}
+.content{
+    flex-basis: 50%;
+    padding:3em 3em ;
+    background: #fff;
+    box-shadow: 2px 9px 49px -17px rgba(0,0,0,0);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.form-img{
+    flex-basis: 40%;
+    background: #eafff9 ;
+    background-size:cover;
+    padding:40px;
+    border-top-right-radius: 8px ;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    display:grid;
+}
+.form-img img{
+    max-width: 100%;
+    align-items:center;
+}
+.btn,
+button,
+input{
+    border-radius: 35px;
+}
+.btn,button:hover{
+    color: rgb(182, 243, 238);
+    transition: 0.5s ease;
+
+}
+.contact-form form{
+    margin: 30px 0;
+}
+.contact-form input,
+textarea{
+    outline: none;
+    margin-bottom:15px ;
+    font-stretch: 16px ;
+    color: #999;
+    padding: 14px 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: #fcfcfc;
+    transition: 0.3s ease;
+}
+.contact-form input:focus{
+    background: transparent;
+    border: 1px solid hsl(271, 81%, 55%) ;
+}
+.contact-form button{
+    font-size: 18px;
+    color:#fff ;
+    width: 100%;
+    background: #000000;
+    font-weight: 600;
+    transition: 0.3s ease;
+    padding: 14px 15px;
+
+}
+@media(max-width:736px){
+    .contact-form .main{
+        flex-direction:column-reverse;
+
+    }
+    .contact-form img{
+        display: none;
+    }
+    .form-img{
+        display: none;
+    }
+    .content{
+        order: 1;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        
+    }
+}
+
+
+/* Formulário de cadastro de funcionários */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form {
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+    background: #b6e5de;
+    padding: 30px;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+}
+
+.container1{
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.contact-form h2 {
+    line-height: 20px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+
+.contact-form .input-group {
+    display: flex;
+    margin: 20px 0;
+}
+
+.half-width {
+    flex-basis: 50%;
+    padding:3px;
+}
+
+.third-width {
+    flex-basis: 33.33%;
+    padding: 3px;
+}
+
+.two-thirds-width {
+    flex-basis: 66.66%;
+    padding: 3px;
+}
+
+.contact-form select,
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form input[type="password"] {
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #999;
+    padding: 14px 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: #fcfcfc;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.contact-form select:focus,
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form input[type="tel"]:focus,
+.contact-form input[type="password"]:focus {
+    background: #fff;
+    border: 1px solid hsl(271, 81%, 55%);
+}
+
+.contact-form button {
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+    background: #000;
+    font-weight: 600;
+    transition: 0.3s ease;
+    padding: 14px 15px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+@media (max-width: 736px) {
+    .contact-form .input-group {
+        flex-direction: column;
+    }
+
+    .content {
+        order: 1;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+}

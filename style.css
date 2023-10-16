@@ -116,8 +116,7 @@ li:hover {
     background-color: #54af5417;
     width: 80%;
     height: 150px;
-    box-shadow: 3px 3px 6px 1px rgba(40, 40, 40, 0.3);
-}
+    box-shadow: 1px 1px 6px 1px rgba(40, 40, 40, 0.3);}
 
 .article-main h1 {
     font-size: 36px;
@@ -349,7 +348,7 @@ li:hover {
     }
 }
 
-/* ------------Início Login/Esqueceu senha----------- */
+/* ------------Início Login/Esqueceu senha/Contato----------- */
 form {
     padding: 25px;
     max-width: 500px;
@@ -379,7 +378,7 @@ label { /* Texto dos campos de texto  */
     font-size: 16px; /* tamanho do texto */
 }
    
-input { /* Campos de texto do formulário  */
+input, textarea { /* Campos de texto do formulário  */
     width: 100%; /* Tamanho da caixa de texto */
     padding: 10px; /* Espaçamento após  */
     margin-bottom: 15px;
@@ -420,4 +419,27 @@ form a {
 a:hover { /* Estilos para hover (quando o mouse passa sobre o link) */
     color: #e79bfa; /* Cor do texto do link ao passar o mouse */
 }
-/* ------------Fim Login/Esqueceu senha----------- */
+/* ------------Fim Login/Esqueceu senha/Contato----------- */
+
+
+
+/* ------------Início Contato----------- */
+.contato {
+    width: 100%;
+    background:#54af542a;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contato form {
+    width: 700px;
+    background:#f2f2f2;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px rgba(40, 40, 40, 0.3);
+}
+textarea {
+    resize: none;
+    min-height: 100px;
+}
+/* ------------Fim Contato----------- */
