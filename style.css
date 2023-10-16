@@ -495,7 +495,7 @@ textarea {
 
 
 /* ------------Início Cadastro Funcionário/Empresa----------- */
-#cpf {
+#cpf, #nascimento {
     max-width: 150px;
 }
 
