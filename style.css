@@ -569,6 +569,46 @@ textarea {
         max-width: 30%; 
     }
 }
-
-
 /* ------------Fim Sobre----------- */
+
+/* ------------Início EcoPainel----------- */
+
+.dashboard section {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.dashboard > .footer-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+    .dashboard > .footer-article {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 890px) {
+    .dashboard section {
+        width: 60%;        
+    }
+
+    .dashboard > .footer-article {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 891px)  {
+    .dashboard section {
+        width: 50%;        
+    }
+
+    .dashboard > .footer-article {
+        flex-direction: row;
+    }
+}
+/* ------------Fim EcoPainel----------- */
