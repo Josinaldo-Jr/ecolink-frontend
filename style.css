@@ -133,6 +133,7 @@ li:hover {
 .article-main h1 {
     font-size: 36px;
     color: #54af54;
+    text-align: center;
 }
 
 .article-main p {
@@ -538,3 +539,36 @@ textarea {
     flex-wrap: wrap;
 }
 /* ------------Fim Cadastro Funcionário/Empresa----------- */
+
+/* ------------Início Sobre----------- */
+.historia, .missao, .visao, .valores {
+    padding: 20px;  
+}
+
+.historia p, .missao p, .visao p {
+    max-width: 80%; 
+    text-align: justify; 
+}
+
+.historia, .valores {
+    background: #54af542a;  
+}
+
+.valores ul li {
+    color:rgb(40, 40, 40);
+}
+
+@media screen and (min-width: 891px) and (max-width: 1499px)  {
+    .historia p, .missao p, .visao p {
+        max-width: 50%; 
+    }
+}
+
+@media screen and (min-width: 1500px)   {
+    .historia p, .missao p, .visao p {
+        max-width: 30%; 
+    }
+}
+
+
+/* ------------Fim Sobre----------- */
