@@ -1,78 +1,141 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        /* CSS para mudar a cord o fundo e da borda*/
-        .card {
-            background-color: #ffffff; 
-            border: 1px solid #000000; 
-            transition: all 0.3s; 
-        }
-
-        .card:hover {
-            background-color: rgb(105, 21, 161); 
-            border-color: #000000; 
-            color: #9cf1b8; 
-        }
-
-        /* Ajustar o tamanho do card*/
-        .equal-height-card {
-            height: 100%;
-        }
-    </style>
-    <title>História, Visão e Valores</title>
+    <title>Ecolink - Sobre</title>
+    <link rel="shortcut icon" href="./imagens/IconeEco.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
+
 <body>
-    <div class="container my-5">
-        <h1 class="text-center">História, Visão e Valores</h1>
-        <!-- História (Em destaque) -->
-        <div class="card mb-4">
-            <div class="card-body">
-                <h5 class="card-title">Nossa História</h5>
-                <p class="card-text">
-                    Tudo começa no dia 13/06/2023, que representa o marco inicial de nossa jornada rumo à ecoeficiência e sustentabilidade. Através de um programa de bolsas para o curso de Programador de Sistemas oferecido pelo Senac – RN em Natal, no bairro do Alecrim, recebemos a missão de desenvolver o Projeto Integrador com o Tema Norteador: Tecnologia para Sustentabilidade: Soluções Inovadoras para um Futuro Responsável. Desafio apresentado e analisando as possibilidades, encontramos um nicho de mercado pouco explorado e com alto impacto ambiental para a natureza chamado “lixo doméstico”. Diante disso e baseados nas melhores práticas ambientais, resolvemos criar um produto que envolve também o usuário doméstico na cadeia de reciclagem, bem como as empresas de um modo geral. Assim nasceu a “ECOLINK”, uma empresa determinada a diminuir o impacto ambiental em toda a cadeia de resíduos, criando a destinação correta para diversos tipos de materiais que prejudicam o meio ambiente.
+    <header class="header-top">
+        <span class="material-symbols-outlined" id="menu-mobile" onclick="activeMenu()">menu</span>
+        <section class="section-header">
+            <a href="./index.html"> <img class="logo-header" src="./imagens/LogoEco2.svg" alt="Logo Ecolink"></a>
+        </section>
+
+        <nav class="nav-header">
+            <ul class="menu" id="menu">
+                <li><a href="./index.html">EcoPainel</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a class="user" href="./login.html">Login <span class="material-symbols-outlined">
+                            login</span></a>
+                </li>
+            </ul>
+        </nav>  
+        
+    </header>
+    <section class="bem-vindo">
+        <p>Seja bem vindo, <span>Fulano!</span></p>
+    </section>     
+    <main class="main-base">
+
+        <article class="article-main historia">
+            <h1>Nossa História</h1>
+            <p>
+                Tudo começa no dia 13/06/2023, que representa o marco inicial de nossa jornada rumo à ecoeficiência e
+                sustentabilidade. Através de um programa de bolsas para o curso de Programador de Sistemas oferecido
+                pelo Senac – RN em Natal, no bairro do Alecrim, recebemos a missão de desenvolver o Projeto Integrador
+                com o Tema Norteador: Tecnologia para Sustentabilidade: Soluções Inovadoras para um Futuro Responsável.
+                Desafio apresentado e analisando as possibilidades, encontramos um nicho de mercado pouco explorado e
+                com alto impacto ambiental para a natureza chamado “lixo doméstico”. Diante disso e baseados nas
+                melhores práticas ambientais, resolvemos criar um produto que envolve também o usuário doméstico na
+                cadeia de reciclagem, bem como as empresas de um modo geral. Assim nasceu a “ECOLINK”, uma empresa
+                determinada a diminuir o impacto ambiental em toda a cadeia de resíduos, criando a destinação correta
+                para diversos tipos de materiais que prejudicam o meio ambiente.
+            </p>
+        </article>
+
+        <article class="article-main missao">
+            <h1>Missão</h1>
+            <p>
+                Contribuir, usando a tecnologia, com os esforços de preservação do meio ambiente, reduzindo a geração
+                de resíduos sem destinação adequada, gerando assim ecoeficiência em toda cadeia de reciclagem.
+            </p>
+        </article>
+
+        <article class="article-main valores">
+            <h1>Valores</h1>
+            <ul>
+                <li>Sustentabilidade Social e Econômica</li>
+                <li>Meio Ambiente Limpo</li>
+                <li>Tecnologias Renováveis</li>
+                <li>Ecoeficiência</li>
+            </ul>
+        </article>
+
+        <article class="article-main visao">
+            <h1>Visão</h1>
+            <p>
+                Participar do processo de reestruturação econômica e social aplicando os conceitos de sustentabilidade,
+                gerando assim padrões de eficiência e competividade junto aos parceiros de negócios.
+            </p>
+        </article>
+
+ 
+
+        
+
+    </main>
+    <footer class="footer-bottom">
+        <article class="social-article">
+            <header class="social-header-article">
+                <ul class="menu-footer">
+                    <li><a href="./sobre.html">Sobre nós</a></li>
+                    <li><a href="./contato.html">Fale conosco</a></li>
+                    <li><a href="./faq.html">Perguntas</a></li>
+                    <li>Email</li>
+                </ul>
+            </header>
+
+            <section class="social-section-article">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <div class="socialA"></div>
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <div class="socialB"></div>
+                </a>
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <div class="socialC"></div>
+                </a>
+            </section>
+
+            <section class="social-section-article">
+                <p>
+                    © 2023 Ecolink - Todos os direitos reservados.
                 </p>
-            </div>
-        </div>
-        <!-- Missão e Valores -->
-        <div class="row">
-            <div class="col-md-6 mb-4">
-                <div class="card border-secondary equal-height-card">
-                    <div class="card-body">
-                        <h5 class="card-title">Missão</h5>
-                        <p class="card-text">
-                            Contribuir, usando a tecnologia, com os esforços de preservação do meio ambiente, reduzindo a geração de resíduos sem destinação adequada, gerando assim ecoeficiência em toda cadeia de reciclagem.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4">
-                <div class="card border-secondary equal-height-card">
-                    <div class="card-body">
-                        <h5 class="card-title">Valores</h5>
-                        <ul>
-                            <li>Sustentabilidade Social e Econômica</li>
-                            <li>Meio Ambiente Limpo</li>
-                            <li>Tecnologias Renováveis</li>
-                            <li>Ecoeficiência</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Visão -->
-        <div class="card mb-4">
-            <div class="card-body">
-                <h5 class="card-title">Visão</h5>
-                <p class="card-text">
-                    Participar do processo de reestruturação econômica e social aplicando os conceitos de sustentabilidade, gerando assim padrões de eficiência e competividade junto aos parceiros de negócios.
-                </p>
-            </div>
-        </div>
-    </div>
+            </section>
+        </article>
+    </footer>
+    <script>
+        function ajustarMenu() {
+            if (window.innerWidth > 890) {
+                menu.style.display = "flex";
+            } else {
+                menu.style.display = "none";
+            }
+        }
+
+        function activeMenu() {
+            if (menu.style.display == "flex") {
+                menu.style.display = "none";
+            }
+            else {
+                menu.style.display = "flex";
+            }
+        }
+
+        window.addEventListener('load', ajustarMenu);
+        window.addEventListener('resize', ajustarMenu);
+    </script>
 </body>
+
 </html>
